@@ -50,8 +50,12 @@ Steps:
 
 <img width="787" alt="image" src="https://user-images.githubusercontent.com/5317244/236976726-a93e6d0f-54af-4ab1-ae7a-37cbc009b199.png">
 
+## Steps to create DNS records for the new subdomain's cloudfront distribution
+1. Go to a DNS provider such as dnsimple.com under your account identifier: https://dnsimple.com/a/[$YOUR_ACCOUNT_NUMBER]/domains/onefact.org/records
+2. Add a CNAME record pointing to the Cloudfront distribution you created (e.g. https://yourcloudfrontsubdomain.cloudfront.net)
+3. Back in Cloudfront add the CNAME to the distribution properties under "Alternate domain name":
 
-
+<img width="793" alt="image" src="https://user-images.githubusercontent.com/5317244/236981856-4224f54f-7b0a-4230-b82e-e6249247d65c.png">
 
 # give.onefact.org
 Shortlinks for fundraising:
