@@ -34,6 +34,22 @@ Steps:
 
 <img width="799" alt="image" src="https://user-images.githubusercontent.com/5317244/236970935-332c06c2-bdb0-4c1d-8a7d-255932ac3d28.png">
 
+## Steps to create a cloudfront distribution and redirect the subdomain DNS
+
+1. Go to the Cloudfront management console: https://us-east-1.console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/distributions
+2. Click create distribution: 
+3. Enter the origin domain, such as `puns.onefact.org.s3-website.us-east-1.amazonaws.com`
+ (a) Select "Redirect HTTP to HTTPS" under `Viewer` options:
+ <img width="257" alt="image" src="https://user-images.githubusercontent.com/5317244/236976829-5e45bc8e-7b62-4a9a-add4-55245d6d560f.png">
+
+ (b) Select the custom SSL certificate associated with the toplevel domain, such as onefact.org:
+ 
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/5317244/236976629-6c95f845-36a0-46ed-ba5a-592adda4e3c4.png">
+  (c) Select "User and agent referrer headers" under `Cache key and origin requests
+`:
+
+<img width="787" alt="image" src="https://user-images.githubusercontent.com/5317244/236976726-a93e6d0f-54af-4ab1-ae7a-37cbc009b199.png">
+
 
 
 
