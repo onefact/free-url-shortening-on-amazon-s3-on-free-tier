@@ -63,6 +63,12 @@ Shortlinks for fundraising:
 
 ## [puns.onefact.org/create](https://puns.onefact.org/create)
 
+[Amazon AWS S3 Management Console direct link](https://s3.console.aws.amazon.com/s3/bucket/puns.onefact.org/property/website/edit?region=us-east-1) 
+
+(<img width="794" alt="image" src="https://user-images.githubusercontent.com/5317244/236976094-8bd525db-204b-45a2-b7ed-3bb2704fd547.png">
+
+Redirection rule in JSON:
+
 ```
 [
     {
