@@ -49,6 +49,10 @@ Steps:
 `:
 
 <img width="787" alt="image" src="https://user-images.githubusercontent.com/5317244/236976726-a93e6d0f-54af-4ab1-ae7a-37cbc009b199.png">
+ (d) Enter the custom domain name under "CNAME", such as `photos.onefact.org`:
+ 
+ <img width="1123" alt="image" src="https://user-images.githubusercontent.com/5317244/236983754-26d1f505-5d10-4350-981b-94bff8dad2a3.png">
+
 
 ## Steps to create DNS records for the new subdomain's cloudfront distribution
 1. Go to a DNS provider such as dnsimple.com under your account identifier: https://dnsimple.com/a/[$YOUR_ACCOUNT_NUMBER]/domains/onefact.org/records
