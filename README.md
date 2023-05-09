@@ -5,7 +5,7 @@ The alternative we found is to simply create redirect rules in Amazon S3 and edi
 # Steps to use this on your custom domain
 We recommend following these steps by cloning this repository locally, using Visual Studio Code: https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository
 
-(Visual Studio code lets you write new redirection rules even more easily using Copilot, which is *free* in the GitHub Education pack (free with an email address ending in `.edu`), using the following steps.)
+(Visual Studio code lets you write new redirection rules even more easily using Copilot, which is *free* in the GitHub Education pack (free with an email address ending in `.edu`), using the following steps: https://education.github.com/pack.)
 
 Steps:
 * [one time] issue an SSL certificate for the domain (e.g. https://onefact.org) in Cloudfront
