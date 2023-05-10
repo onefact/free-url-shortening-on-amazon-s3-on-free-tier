@@ -1,3 +1,7 @@
+## 🐂 + 💩 [Demo](https://puns.onefact.org/) (redirection rules below to let you create your own shortlinks such as [puns.onefact.org/create](puns.onefact.org/create) :)
+
+This is like Bitly but free! 
+
 As a small nonprofit, we can't afford custom URL shortening with services like Bitly (https://bit.ly, $348/year for custom domain support).
 
 The alternative we found is to simply create redirect rules in Amazon S3 and edit a single json file.
