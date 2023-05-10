@@ -84,6 +84,68 @@ Steps:
 # give.onefact.org
 Shortlinks for fundraising:
 
+Cash app: give.onefact.org/cash
+Stripe: give.onefact.org/stripe
+Paypal: give.onefact.org/paypal
+Venmo: give.onefact.org/venmo
+Ether: give.onefact.org/ether
+
+Redirection rules:
+```
+[
+    {
+        "Condition": {
+            "KeyPrefixEquals": "paypal"
+        },
+        "Redirect": {
+            "HostName": "www.paypal.com",
+            "Protocol": "https",
+            "ReplaceKeyPrefixWith": "donate/?hosted_button_id=NEJHHURVND8HG&"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "stripe"
+        },
+        "Redirect": {
+            "HostName": "checkout.stripe.com",
+            "Protocol": "https",
+            "ReplaceKeyWith": "c/pay/cs_live_a1pYUzqiE0JdVTYyTRLqIXBp6g7LEBta1va19ewnWhX0iH5gnWgH4pSGuh#fidkdWxOYHwnPyd1blppbHNgWjA0STVSQVBBdkhMbm1PbFA9Szxud0pqNk9XVkJUNHVxdkh3N0pRRHVpSDA2ZGdXZFZWcXJGNk1sVE1xaEhgXDNhZnVCclF2fF9WZkZmUl00SEldRD03a0ZGNTVfVmF0REx8QicpJ3VpbGtuQH11anZgYUxhJz8nMnZMM3QzPUlhZGlQNjc9YVRUJykndXdgaWpkYUNqa3EnPydMa2Zqa3ZqaWRxZCd4JSUl"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "cash"
+        },
+        "Redirect": {
+            "HostName": "cash.app",
+            "Protocol": "https",
+            "ReplaceKeyPrefixWith": "$onefact/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "venmo"
+        },
+        "Redirect": {
+            "HostName": "account.venmo.com",
+            "Protocol": "https",
+            "ReplaceKeyPrefixWith": "u/onefact/"
+        }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "ether"
+        },
+        "Redirect": {
+            "HostName": "zapper.xyz",
+            "Protocol": "https",
+            "ReplaceKeyPrefixWith": "account/onefact.eth?modal=token-transfer"
+        }
+    }
+]
+```
+
 # photos.onefact.org
 
 ## [photos.onefact.org/2023-five-boro-bike-tour](https://photos.onefact.org/2023-five-boro-bike-tour)
