@@ -124,6 +124,16 @@ Redirection rule in JSON:
             "Protocol": "https",
             "ReplaceKeyPrefixWith": "onefact/puns.onefact.org/tree/main#prompt-to-help-generate-more-puns-and-add-to-this-list-using-github-pull-requests-"
         }
+    },
+    {
+        "Condition": {
+            "KeyPrefixEquals": "index.html"
+        },
+        "Redirect": {
+            "HostName": "github.com",
+            "Protocol": "https",
+            "ReplaceKeyPrefixWith": "onefact/puns.onefact.org/#punsonefactorg"
+        }
     }
 ]
 ```
