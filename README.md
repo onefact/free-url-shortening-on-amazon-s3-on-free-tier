@@ -34,6 +34,26 @@ Steps:
 
 <img width="799" alt="image" src="https://user-images.githubusercontent.com/5317244/236970935-332c06c2-bdb0-4c1d-8a7d-255932ac3d28.png">
 
+ * in the bucket permissions, add the following to enable public access:
+```
+{
+    "Version": "2008-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadForGetBucketObjects",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::give.onefact.org/*"
+        }
+    ]
+}
+```
+
+<img width="1252" alt="image" src="https://github.com/onefact/free-url-shortening-on-amazon-s3-on-free-tier/assets/5317244/27b63e9a-c453-44c9-bde5-dba463fab29d">
+
 ## Steps to create a cloudfront distribution and redirect the subdomain DNS
 
 1. Go to the Cloudfront management console: https://us-east-1.console.aws.amazon.com/cloudfront/v3/home?region=us-east-1#/distributions
