@@ -1,4 +1,4 @@
-## 🐂 + 💩 [Demo](https://puns.onefact.org/) (redirection rules below to let you create your own shortlinks such as [puns.onefact.org/create](puns.onefact.org/create) :)
+## 🐂 + 💩 [Demo](https://puns.onefact.org/) (redirection rules below to let you create your own shortlinks such as [puns.onefact.org/create](https://puns.onefact.org/create) :)
 
 This is like Bitly but free! 
 
