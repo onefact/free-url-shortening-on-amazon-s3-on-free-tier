@@ -203,3 +203,21 @@ Redirection rule in JSON:
     }
 ]
 ```
+
+## [calendar.onefact.org](https://calendar.onefact.org)
+
+Redirection rules in JSON for the Amazon S3 bucket `s3://calendar.onefact.org`:
+```
+[
+    {
+        "Condition": {
+            "KeyPrefixEquals": "index.html"
+        },
+        "Redirect": {
+            "HostName": "calendar.google.com",
+            "Protocol": "https",
+            "ReplaceKeyPrefixWith": "/calendar/embed?src=c_f61914946533f9d449f564fe22c898eb8bc91662b1a3298a305de45b0c9f1012%40group.calendar.google.com"
+        }
+    }
+]
+```
