@@ -76,6 +76,11 @@ Steps:
  (d) Enter the custom domain name under "CNAME", such as `photos.onefact.org`:
  
  <img width="1123" alt="image" src="https://user-images.githubusercontent.com/5317244/236983754-26d1f505-5d10-4350-981b-94bff8dad2a3.png">
+ 
+ (e) Enter `index.html` for under the `Default root object` property:
+ 
+ <img width="875" alt="image" src="https://github.com/onefact/free-url-shortening-on-amazon-s3-on-free-tier/assets/5317244/5388ebfb-4b2a-47fc-a95f-bdec2652a67d">
+
 
 
 ## Steps to create DNS records for the new subdomain's cloudfront distribution
